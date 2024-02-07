@@ -1,0 +1,14 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BaseTemplate</title>
+    <link rel="stylesheet" href="{% static 'styles/design.css' %}">
+</head>
+<body>
+   <h1>template headline</h1>
+   {%block content%}  <!--aici incarc dinamic fiecare continut -->
+   {%endblock%}
+</body>
+</html>

@@ -1,0 +1,10 @@
+{% extends 'base.html'%}
+
+{%block content%}
+<p>lista angajatori</p>
+<u1>
+    {% for employer in employers%}
+    <li> {{employer.name}} </li>
+    {%endfor%}
+</u1>
+{%endblock%}
